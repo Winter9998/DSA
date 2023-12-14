@@ -1,8 +1,8 @@
-use crate::linked_list::new_linked_list;
-
-mod array_hex;
-mod binary_search;
-mod linked_list;
+mod data_structures;
+mod algorithms;
+use crate::data_structures::linked_list::new_linked_list;
+use crate::data_structures::array_hex;
+use crate::algorithms::binary_search;
 
 fn main() {
     println!("\n A random generated array with raw pointers :");
